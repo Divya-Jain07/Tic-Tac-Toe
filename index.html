@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="box">
+        <h1><u>Tic-Tac-Toe</u></h1>
+        <div id="text">
+            <p></p>
+            <div id="game-box">
+            <button type="button" class="buttons" onclick="btn(0,0,0)">00</button>
+            <button type="button" class="buttons" onclick="btn(0,1,1)">01</button>
+            <button type="button" class="buttons" onclick="btn(0,2,2)">02</button>
+            <button type="button" class="buttons" onclick="btn(1,0,3)">10</button>
+            <button type="button" class="buttons" onclick="btn(1,1,4)">11</button>
+            <button type="button" class="buttons" onclick="btn(1,2,5)">12</button>
+            <button type="button" class="buttons" onclick="btn(2,0,6)">20</button>
+            <button type="button" class="buttons" onclick="btn(2,1,7)">21</button>
+            <button type="button" class="buttons" onclick="btn(2,2,8)">22</button>
+            </div>
+            <div id="result">
+                <button type="button" id="reset" onclick="reset()">Reset</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
